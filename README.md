@@ -4,6 +4,9 @@ The data science salary prediction, cleaning, model building and eda.
   
 ## Model Outputs
 The different models which were used in the salary prediction along with prediction mean absolute error.
+
+<span style="display:block;text-align:center">![](images/mean_absolute_error.png)</span>
+
 ### *_1. Linear Regression:_*
 	 mean absolute error: 18.85518999021416
 
