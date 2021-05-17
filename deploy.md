@@ -1,4 +1,4 @@
-# Django Deploy
+# Django Deploy on heroku
 
 ## CMD
 ```python
@@ -27,3 +27,4 @@ STATICFILES_DIRS = [
 {% load static %} {% static  "" %}                                          - home.html(at top)
 ```
 
+## Heroku
