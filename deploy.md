@@ -25,3 +25,7 @@ STATICFILES_DIRS = [
 
 {% load static %} {% static  "" %}                                          - home.html(at top)
 ```
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
