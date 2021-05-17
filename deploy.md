@@ -27,5 +27,6 @@ STATICFILES_DIRS = [
 ```
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| from django.shortcuts import render  | views.py  |
+| def home(request):
+    return render(request, "home.html")   | views.py  |
