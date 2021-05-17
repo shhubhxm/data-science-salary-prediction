@@ -3,7 +3,8 @@
 ## CMD
 ```python
 django-admin startproject file_name
-python manage.py runserver - inside vscode
+-------------------------------------------------------------------------------------------------------------
+python manage.py runserver                                                  - inside vscode
 ```
 
 ## VSCode
