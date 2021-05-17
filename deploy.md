@@ -1,12 +1,12 @@
 # Django Deploy
 
-This is before starting html
+## CMD
 ```python
 django-admin startproject SalaryPrediction
 python manage.py runserver - inside vscode
 ```
 
-Inside vscode
+## VSCode
 ```python
 from django.shortcuts import render - views.py
 
@@ -23,5 +23,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static") - settings.py(below static url)
 ]
 
-{% load static %} {% static  "" %} - home.html(At top)
+{% load static %} {% static  "" %} - home.html(at top)
 ```
