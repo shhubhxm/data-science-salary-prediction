@@ -16,4 +16,12 @@ def home(request):
 from . import views - urls.py
 
 path('', views.home, name="home") - urls.py(path)
+
+import os - settings.py
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static") - settings.py(below static url)
+]
+
+{% load static %} {% static  "" %} - home.html(At top)
 ```
