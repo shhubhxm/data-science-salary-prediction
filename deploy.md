@@ -28,5 +28,5 @@ STATICFILES_DIRS = [
 | First Header  | Second Header |
 | ------------- | ------------- |
 | from django.shortcuts import render  | views.py  |
-| def home(request):
-    return render(request, "home.html")   | views.py  |
+| def home(request):return render(request, "home.html")| views.py  |
+       
