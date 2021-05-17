@@ -2,7 +2,7 @@
 
 ## CMD
 ```python
-django-admin startproject SalaryPrediction
+django-admin startproject file_name
 python manage.py runserver - inside vscode
 ```
 
