@@ -28,3 +28,10 @@ STATICFILES_DIRS = [
 ```
 
 ## Heroku
+```python
+pip install gunicorn
+create procfile
+pip freeze > requirements
+heroku login - vscode terminal
+heroku keys - vscode terminal
+```
