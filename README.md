@@ -57,7 +57,6 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](images/correlation_visual.png "Correlations")
 
 ## Model Building 
-
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
 
 I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
