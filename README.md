@@ -55,6 +55,9 @@ I looked at the distributions of the data and the value counts for the various c
 <span style="display:block;text-align:center">![](images/correlation_visual.png)</span>
 <span style="display:block;text-align:center">![](images/positions_by_state.png)</span>
 <span style="display:block;text-align:center">![](images/salary_by_job_title.PNG)</span>
+![alt text](images/salary_by_job_title.PNG "Salary by Position")
+![alt text](images/positions_by_state.png "Job Opportunities by State")
+![alt text](images/correlation_visual.png "Correlations")
 
 ## Model Building 
 
