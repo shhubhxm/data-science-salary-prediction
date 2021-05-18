@@ -86,11 +86,8 @@ The different models which were used in the salary prediction along with predict
 
 ## Productionization 
 In this step, I built a Django API endpoint that was hosted on heroku. The model was dumped using joblib and returns an estimated salary. 
-```language
-The Website Repo: 
-Heroku App: [here](http://jobsalaryprediction.herokuapp.com/)
-```
 
-|-------------------|:------------------------------------------------------------------:|
-| The Website Repo: | [here](https://github.com/shhubhxm/salary-priceprediction_website) | 
-| Heroku App:       | [here](http://jobsalaryprediction.herokuapp.com/)                  |
+- The Website Repo: [here](https://github.com/shhubhxm/salary-priceprediction_website)
+- Heroku App: [here](http://jobsalaryprediction.herokuapp.com/)
+
+
