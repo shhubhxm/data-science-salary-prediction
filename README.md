@@ -55,6 +55,7 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](images/salary_by_job_title.PNG "Salary by Position")
 ![alt text](images/positions_by_state.png "Job Opportunities by State")
 ![alt text](images/correlation_visual.png "Correlations")
+<span style="display:block;text-align:center">![](images/ds_sal.png)</span>
 
 ## Model Building 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
@@ -66,8 +67,6 @@ I tried three different models:
 *	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 *	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
 The data science salary prediction, cleaning, model building and eda.
-
-<span style="display:block;text-align:center">![](images/ds_sal.png)</span>
   
 ## Model Outputs
 The different models which were used in the salary prediction along with prediction mean absolute error.
