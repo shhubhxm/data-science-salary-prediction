@@ -52,9 +52,6 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
-<span style="display:block;text-align:center">![](images/correlation_visual.png)</span>
-<span style="display:block;text-align:center">![](images/positions_by_state.png)</span>
-<span style="display:block;text-align:center">![](images/salary_by_job_title.PNG)</span>
 ![alt text](images/salary_by_job_title.PNG "Salary by Position")
 ![alt text](images/positions_by_state.png "Job Opportunities by State")
 ![alt text](images/correlation_visual.png "Correlations")
@@ -89,5 +86,6 @@ The different models which were used in the salary prediction along with predict
 
 ## Productionization 
 In this step, I built a Django API endpoint that was hosted on heroku. The model was dumped using joblib and returns an estimated salary. 
-The Website Repo:[here](https://github.com/shhubhxm/salary-priceprediction_website)
-Heroku App:[here](http://jobsalaryprediction.herokuapp.com/)
+The Website Repo: [here](https://github.com/shhubhxm/salary-priceprediction_website)
+----
+Heroku App: [here](http://jobsalaryprediction.herokuapp.com/)
