@@ -34,4 +34,5 @@ create procfile
 pip freeze > requirements
 heroku login - vscode terminal
 heroku keys - vscode terminal
+heroku apps:rename newname(for renaming only)
 ```
